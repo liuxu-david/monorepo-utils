@@ -1,0 +1,25 @@
+{
+  "name": "@david/monorepo-utils",
+  "description": "",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "^1.1.4"
+  },
+  "scripts": {
+    "dev": "vitepress dev packages",
+    "build": "vitepress build packages",
+    "preview": "vitepress preview packages"
+  },
+  "keywords": [],
+  "author": "凉橙🍊",
+  "license": "MIT",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "bugs": {
+    "email": "2982359231@qq.com"
+  }
+}

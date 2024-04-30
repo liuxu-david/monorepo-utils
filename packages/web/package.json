@@ -1,0 +1,19 @@
+{
+  "name": "@david/web",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "凉橙🍊",
+  "license": "MIT",
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "bugs": {
+    "email": "2982359231@qq.com"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}
