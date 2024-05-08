@@ -13,7 +13,9 @@
     "email": "2982359231@qq.com"
   },
   "scripts": {
+    "build": "vite build"
   },
   "devDependencies": {
+    "@david/common": "workspace:^"
   }
 }

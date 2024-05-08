@@ -5,12 +5,13 @@
   "private": true,
   "type": "module",
   "devDependencies": {
+    "vite": "^5.2.11",
     "vitepress": "^1.1.4"
   },
   "scripts": {
-    "dev": "vitepress dev packages",
-    "build": "vitepress build packages",
-    "preview": "vitepress preview packages"
+    "dev": "vitepress dev docs",
+    "build": "pnpm --filter ./packages/** run build",
+    "preview": "vitepress preview docs"
   },
   "keywords": [],
   "author": "凉橙🍊",
