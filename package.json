@@ -5,6 +5,7 @@
   "private": true,
   "type": "module",
   "devDependencies": {
+    "@changesets/cli": "^2.27.9",
     "vite": "^5.2.11",
     "vitepress": "^1.1.4"
   },
