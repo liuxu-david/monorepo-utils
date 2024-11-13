@@ -1,5 +1,5 @@
 {
-  "name": "@david/h5",
+  "name": "@lc_liuxu/h5",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -8,6 +8,9 @@
   "repository": {
     "type": "",
     "url": ""
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "bugs": {
     "email": "2982359231@qq.com"
