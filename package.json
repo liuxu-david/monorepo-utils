@@ -1,27 +1,27 @@
 {
-  "name": "@lc_liuxu/monorepo-utils",
-  "description": "",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "devDependencies": {
-    "@changesets/cli": "^2.27.9",
-    "vite": "^5.2.11",
-    "vitepress": "^1.1.4"
-  },
-  "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "pnpm --filter ./packages/** run build",
-    "preview": "vitepress preview docs"
-  },
-  "keywords": [],
-  "author": "凉橙🍊",
-  "license": "MIT",
-  "repository": {
-    "type": "",
-    "url": ""
-  },
-  "bugs": {
-    "email": "2982359231@qq.com"
-  }
+    "name": "@lc_liuxu/monorepo-utils",
+    "description": "",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "devDependencies": {
+        "@changesets/cli": "^2.27.9",
+        "vite": "^5.2.11",
+        "vitepress": "^1.1.4"
+    },
+    "scripts": {
+        "dev": "vitepress dev docs",
+        "build": "pnpm --filter ./packages/** run build",
+        "preview": "vitepress preview docs"
+    },
+    "keywords": [],
+    "author": "凉橙🍊",
+    "license": "MIT",
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "bugs": {
+        "email": "2982359231@qq.com"
+    }
 }

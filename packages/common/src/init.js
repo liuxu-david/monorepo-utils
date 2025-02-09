@@ -1,3 +1,7 @@
 export function init() {
-  return "Hello World";
+    return "common------Hello World";
+}
+
+export function init2() {
+    return "common------test2";
 }

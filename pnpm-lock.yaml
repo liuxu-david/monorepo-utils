@@ -23,9 +23,9 @@ importers:
   packages/h5: {}
 
   packages/web:
-    devDependencies:
-      '@david/common':
-        specifier: workspace:^
+    dependencies:
+      '@lc_liuxu/common':
+        specifier: workspace:*
         version: link:../common
 
   packages/wx: {}

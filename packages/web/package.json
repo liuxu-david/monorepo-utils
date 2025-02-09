@@ -1,24 +1,27 @@
 {
-  "name": "@lc_liuxu/web",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "凉橙🍊",
-  "license": "MIT",
-  "repository": {
-    "type": "",
-    "url": ""
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "bugs": {
-    "email": "2982359231@qq.com"
-  },
-  "scripts": {
-    "build": "vite build"
-  },
-  "devDependencies": {
-    "@david/common": "workspace:^"
-  }
+    "name": "@lc_liuxu/web",
+    "version": "1.0.4",
+    "description": "公司团队web端通用工具包",
+    "keywords": [],
+    "author": "凉橙🍊",
+    "license": "MIT",
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "bugs": {
+        "email": "2982359231@qq.com"
+    },
+    "scripts": {
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@lc_liuxu/common": "workspace:^"
+    }
 }

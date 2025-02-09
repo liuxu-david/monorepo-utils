@@ -1,22 +1,25 @@
 {
-  "name": "@lc_liuxu/h5",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "凉橙🍊",
-  "license": "MIT",
-  "repository": {
-    "type": "",
-    "url": ""
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "bugs": {
-    "email": "2982359231@qq.com"
-  },
-  "scripts": {
-    "build": "vite build"
-  },
-  "devDependencies": {}
+    "name": "@lc_liuxu/h5",
+    "version": "1.0.4",
+    "description": "公司团队H5端通用工具包",
+    "keywords": [],
+    "author": "凉橙🍊",
+    "license": "MIT",
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "bugs": {
+        "email": "2982359231@qq.com"
+    },
+    "scripts": {
+        "build": "vite build"
+    },
+    "devDependencies": {}
 }
