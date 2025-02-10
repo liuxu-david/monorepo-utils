@@ -1,5 +1,13 @@
 # @lc_liuxu/web
 
+## 1.0.5
+
+### Patch Changes
+
+- build
+- Updated dependencies
+  - @lc_liuxu/common@1.0.5
+
 ## 1.0.4
 
 ### Patch Changes

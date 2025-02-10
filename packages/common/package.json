@@ -1,6 +1,6 @@
 {
     "name": "@lc_liuxu/common",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "公司团队各端通用工具包",
     "keywords": [],
     "author": "凉橙🍊",
@@ -22,12 +22,7 @@
         "build": "vite build"
     },
     "devDependencies": {},
-    "main": "./dist/daivd-common.umd.js",
-    "module": "./dist/daivd-common.mjs",
-    "exports": {
-        ".": {
-            "require": "./dist/daivd-common.umd.js",
-            "module": "./dist/daivd-common.mjs"
-        }
-    }
+    "main": "./dist/daivd-common.cjs.js",
+    "module": "./dist/daivd-common.esm.js",
+    "browser": "./dist/daivd-common.umd.js"
 }

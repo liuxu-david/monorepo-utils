@@ -9,7 +9,7 @@ export default defineConfig({
             entry: "./index.js",
 
             // 产物的生成格式，默认为 ['es', 'umd']。我们使用默认值，注释掉此字段。
-            // formats: ['es', 'umd'],
+            formats: ["es", "umd", "cjs"],
 
             // 当产物为 umd、iife 格式时，该模块暴露的全局变量名称
             name: "OpenxuiShared",
