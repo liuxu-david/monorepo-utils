@@ -25,7 +25,7 @@ importers:
   packages/web:
     dependencies:
       '@lc_liuxu/common':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../common
 
   packages/wx: {}

@@ -1,6 +1,6 @@
 {
     "name": "@lc_liuxu/web",
-    "version": "1.0.5",
+    "version": "1.0.8",
     "description": "公司团队web端通用工具包",
     "keywords": [],
     "author": "凉橙🍊",
@@ -21,6 +21,9 @@
     "scripts": {
         "build": "vite build"
     },
+    "main": "./dist/web.js",
+    "module": "./dist/web.mjs",
+    "browser": "./dist/web.umd.js",
     "dependencies": {
         "@lc_liuxu/common": "workspace:^"
     }
